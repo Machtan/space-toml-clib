@@ -1,0 +1,14 @@
+[package]
+authors = ["Machtan <jako3047@gmail.com>"]
+name = "space-toml-clib"
+version = "0.1.0"
+
+[dependencies]
+libc = "0.2.15"
+
+[dependencies.space-toml]
+path = "../space-toml"
+
+[lib]
+crate-type = ["cdylib"]
+name = "toto"
